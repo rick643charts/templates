@@ -1,1 +1,3 @@
-# templates
+# Template hosting
+
+User-defined templates
