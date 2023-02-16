@@ -1,0 +1,851 @@
+
+/* Hitting 1 - Splits template layout */
+
+.trackman-report-template1 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template1 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template1 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template1 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template1 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template1 .box6 {
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.trackman-report-template1 .box7 {
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.trackman-report-template1 .box8 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template1 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting 2 - Weekly Recap template layout */
+
+.trackman-report-template2 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template2 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template2 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template2 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template2 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template2 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template2 .box7 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template2 .box8 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template2 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting 3 - Season Summary template layout */
+
+.trackman-report-template3 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template3 .box2 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template3 .box3 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template3 .box4 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template3 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template3 .box6 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template3 .box7 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template3 .box8 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template3 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting 4 - In-Game vs RHP template layout */
+
+.trackman-report-template4 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template4 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template4 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template4 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template4 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template4 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template4 .box7 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template4 .box8 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template4 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting 5 - In-Game vs LHP template layout */
+
+.trackman-report-template5 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template5 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template5 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template5 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template5 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template5 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template5 .box7 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template5 .box8 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template5 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Pitching 1 - Splits template layout */
+
+.trackman-report-template6 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template6 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template6 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template6 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template6 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template6 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template6 .box7 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template6 .box8 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template6 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+
+/* Pitching 2 - Post Game template layout */
+
+.trackman-report-template7 .box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+  height: calc(75% + .2mm);
+}
+
+.trackman-report-template7 .box2 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+  height: calc(75% + .2mm);
+}
+
+.trackman-report-template7 .box3 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  height: calc(75% + .2mm);
+  top: 25%;
+}
+
+.trackman-report-template7 .box4 {
+  grid-column: 2/3;
+  grid-row: 2/4;
+  height: calc(75% + .2mm);
+  top: 25%;
+}
+
+.trackman-report-template7 .box5 {
+  grid-column: 3/5;
+  grid-row: 1/4;
+}
+
+.trackman-report-template7 .box6 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template7 .box7 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template7 .box8 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template7 .box9 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template7 .box10 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template7 .box11 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Pitching 3 - Season Summary template layout */
+
+.trackman-report-template8 .box1 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.trackman-report-template8 .box2 {
+  grid-column: 3/5;
+  grid-row: 1/3;
+}
+
+.trackman-report-template8 .box3 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template8 .box4 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template8 .box5 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+.trackman-report-template8 .box6 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template8 .box7 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template8 .box8 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template8 .box9 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+/* Pitching 4 - In-Game vs RHH template layout */
+
+.trackman-report-template9 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template9 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template9 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template9 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template9 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template9 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template9 .box7 {
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.trackman-report-template9 .box8 {
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.trackman-report-template9 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Pitching 5 - In-Game vs LHH template layout */
+
+.trackman-report-template10 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template10 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template10 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template10 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template10 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template10 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template10 .box7 {
+  grid-column: 1/3;
+  grid-row: 5/7;
+}
+
+.trackman-report-template10 .box8 {
+  grid-column: 3/5;
+  grid-row: 5/7;
+}
+
+.trackman-report-template10 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting Template A (MTSU BB) */
+
+.trackman-report-template100 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template100 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template100 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template100 .box4 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template100 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template100 .box6 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template100 .box7 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.trackman-report-template100 .box8 {
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+.trackman-report-template100 .box9 {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  width: calc(150% + .2mm);
+}
+
+.trackman-report-template100 .box10 {
+  grid-column: 6/7;
+  grid-row: 5/7;
+  width: calc(150% + .2mm);
+  right: 50%;
+}
+
+/* Pitching Templates (UW BB) */
+
+.trackman-report-template104 .box1,
+.trackman-report-template105 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template104 .box2,
+.trackman-report-template105 .box2 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template104 .box3,
+.trackman-report-template105 .box3 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template104 .box4,
+.trackman-report-template105 .box4 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template104 .box5,
+.trackman-report-template105 .box5 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template104 .box6,
+.trackman-report-template105 .box6 {
+  grid-column: 1/5;
+  grid-row:  6/7;
+}
+
+.trackman-report-template104 .box7,
+.trackman-report-template105 .box7 {
+  grid-column: 5/7;
+  grid-row:  1/3;
+}
+
+.trackman-report-template104 .box8,
+.trackman-report-template105 .box8 {
+  grid-column: 5/7;
+  grid-row:  3/5;
+}
+
+.trackman-report-template104 .box9,
+.trackman-report-template105 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting Templates (UW BB) */
+
+.trackman-report-template106 .box1,
+.trackman-report-template107 .box1,
+.trackman-report-template108 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template106 .box2,
+.trackman-report-template107 .box2,
+.trackman-report-template108 .box2 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template106 .box3,
+.trackman-report-template107 .box3,
+.trackman-report-template108 .box3 {
+  grid-column: 1/5;
+  grid-row: 3/4;
+}
+
+.trackman-report-template106 .box4,
+.trackman-report-template107 .box4,
+.trackman-report-template108 .box4 {
+  grid-column: 1/5;
+  grid-row: 4/5;
+}
+
+.trackman-report-template106 .box5,
+.trackman-report-template107 .box5,
+.trackman-report-template108 .box5 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template106 .box6,
+.trackman-report-template107 .box6,
+.trackman-report-template108 .box6 {
+  grid-column: 1/5;
+  grid-row:  6/7;
+}
+
+.trackman-report-template106 .box7,
+.trackman-report-template107 .box7,
+.trackman-report-template108 .box7 {
+  grid-column: 5/7;
+  grid-row:  1/3;
+}
+
+.trackman-report-template106 .box8,
+.trackman-report-template107 .box8,
+.trackman-report-template108 .box8 {
+  grid-column: 5/7;
+  grid-row:  3/5;
+}
+
+.trackman-report-template106 .box9,
+.trackman-report-template107 .box9,
+.trackman-report-template108 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting Template B (MTSU BB) */
+
+.trackman-report-template109 .box1 {
+  grid-column: 1/5;
+  grid-row: 1/2;
+}
+
+.trackman-report-template109 .box2 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template109 .box3 {
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+
+.trackman-report-template109 .box4 {
+  grid-column: 1/3;
+  grid-row: 3/5;
+}
+
+.trackman-report-template109 .box5 {
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+
+.trackman-report-template109 .box6 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template109 .box7 {
+  grid-column: 1/5;
+  grid-row: 5/6;
+}
+
+.trackman-report-template109 .box8 {
+  grid-column: 1/5;
+  grid-row: 6/7;
+}
+
+.trackman-report-template109 .box9 {
+  grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+/* Hitting Template C (MTSU BB) */
+
+.trackman-report-template110 .box1 {
+  grid-column: 1/3;
+  grid-row: 1/5;
+}
+
+.trackman-report-template110 .box2 {
+  grid-column: 3/5;
+  grid-row: 1/3;
+}
+
+.trackman-report-template110 .box3 {
+  grid-column: 5/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template110 .box4 {
+  grid-column: 3/5;
+  grid-row: 3/5;
+}
+
+.trackman-report-template110 .box5 {
+  grid-column: 5/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template110 .box6 {
+  grid-column: 1/4;
+  grid-row: 5/6;
+}
+
+.trackman-report-template110 .box7 {
+  grid-column: 1/4;
+  grid-row: 6/7;
+}
+
+.trackman-report-template110 .box8 {
+  grid-column: 4/7;
+  grid-row: 5/6;
+}
+
+.trackman-report-template110 .box9 {
+  grid-column: 4/7;
+  grid-row: 6/7;
+}
+
+/* Alabama BB - Comparative A */
+
+.trackman-report-template101 .box1 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box2 {
+  grid-column: 2/3;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box3 {
+  grid-column: 3/4;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box4 {
+  grid-column: 4/5;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box5 {
+  grid-column: 5/6;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box6 {
+  grid-column: 6/7;
+  grid-row: 1/3;
+}
+
+.trackman-report-template101 .box7 {
+  grid-column: 1/2;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box8 {
+  grid-column: 2/3;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box9 {
+  grid-column: 3/4;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box10 {
+  grid-column: 4/5;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box11 {
+  grid-column: 5/6;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box12 {
+  grid-column: 6/7;
+  grid-row: 3/5;
+}
+
+.trackman-report-template101 .box13 {
+  grid-column: 1/4;
+  grid-row: 5/7;
+}
+
+.trackman-report-template101 .box14 {
+  grid-column: 4/7;
+  grid-row: 5/7;
+}
+
+/* Alabama BB - Post Game Pitcher */
+
+.trackman-report-template102 .box1 {
+  grid-column: 1/7;
+  grid-row: 1/2;
+}
+
+.trackman-report-template102 .box2 {
+  grid-column: 1/7;
+  grid-row: 2/9;
+}
+
+.trackman-report-template102 .box3 {
+  grid-column: 7/9;
+  grid-row: 1/5;
+}
+
+.trackman-report-template102 .box4 {
+  grid-column: 7/9;
+  grid-row: 5/9;
+}
