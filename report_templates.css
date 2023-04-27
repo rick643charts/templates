@@ -2642,31 +2642,20 @@
 
 .report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box5 {
   grid-column: 3/5;
-  grid-row: 5/8;
+  grid-row: 5/13;
 }
 
 .report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box6 {
-  grid-column: 3/5;
-  grid-row: 8/10;
-}
-
-.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box7 {
-  grid-column: 3/5;
-  grid-row: 10/13;
-}
-
-.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box8 {
   grid-column: 5/7;
   grid-row: 4/7;
 }
 
-.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box9 {
+.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box7 {
   grid-column: 5/7;
   grid-row: 7/10;
 }
 
-.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box10 {
+.report-template9af32d62-d88c-11ed-ac38-022876d1ca7c .box8 {
   grid-column: 5/7;
   grid-row: 10/13;
 }
-
