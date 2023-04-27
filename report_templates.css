@@ -569,19 +569,29 @@
   grid-row: 6/7;
 }
 
-.report-templatecba30f9b-ae75-11ed-b07f-022876d1ca7c .box9,
-.report-templatef3f90d2a-e547-11ed-ac38-022876d1ca7c .box9 {
+.report-templatecba30f9b-ae75-11ed-b07f-022876d1ca7c .box9 {
   grid-column: 4/5;
   grid-row: 5/7;
   width: calc(150% + .2mm);
 }
 
-.report-templatecba30f9b-ae75-11ed-b07f-022876d1ca7c .box10,
-.report-templatef3f90d2a-e547-11ed-ac38-022876d1ca7c .box10 {
+.report-templatecba30f9b-ae75-11ed-b07f-022876d1ca7c .box10 {
   grid-column: 6/7;
   grid-row: 5/7;
   width: calc(150% + .2mm);
   right: 50%;
+}
+
+.report-templatef3f90d2a-e547-11ed-ac38-022876d1ca7c .box9 {
+  grid-column: 4/5;
+  grid-row: 5/7;
+  width: calc(200% + .2mm);
+  right: 100%;
+}
+
+.report-templatef3f90d2a-e547-11ed-ac38-022876d1ca7c .box10 {
+  grid-column: 5/7;
+  grid-row: 5/7;
 }
 
 .report-templatecbb99a94-ae77-11ed-b07f-022876d1ca7c .box1 {
