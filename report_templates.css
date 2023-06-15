@@ -2094,9 +2094,18 @@
   grid-row: 6/7;
 }
 
-.report-templatef365b389-b17a-11ed-b07f-022876d1ca7c .box11,
-.report-templated14bc6bc-0b95-11ee-95c2-022876d1ca7c .box11 {
+.report-templatef365b389-b17a-11ed-b07f-022876d1ca7c .box11 {
   grid-column: 5/7;
+  grid-row: 5/7;
+}
+
+.report-templated14bc6bc-0b95-11ee-95c2-022876d1ca7c .box11 {
+  grid-column: 5/6;
+  grid-row: 5/7;
+}
+
+.report-templated14bc6bc-0b95-11ee-95c2-022876d1ca7c .box12 {
+  grid-column: 6/7;
   grid-row: 5/7;
 }
 
