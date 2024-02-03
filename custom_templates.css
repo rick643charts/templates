@@ -406,6 +406,11 @@
 .master-layout-3a33fa2b-c208-11ee-8531-022876d1ca7c .box8 {grid-column: 4/10; grid-row: 9/13;}
 .master-layout-3a33fa2b-c208-11ee-8531-022876d1ca7c .box9 {grid-column: 10/13; grid-row: 9/13;}
 
+.master-layout-d1610c3a-c2b6-11ee-8531-022876d1ca7c .box1 {grid-column: 1/13; grid-row: 1/4;}
+.master-layout-d1610c3a-c2b6-11ee-8531-022876d1ca7c .box2 {grid-column: 1/13; grid-row: 4/7;}
+.master-layout-d1610c3a-c2b6-11ee-8531-022876d1ca7c .box3 {grid-column: 1/13; grid-row: 7/10;}
+.master-layout-d1610c3a-c2b6-11ee-8531-022876d1ca7c .box4 {grid-column: 1/13; grid-row: 10/13;}
+
 /* --------------Portrait Layout Templates----------------- */
 
 .master-layout-343f228b-4c76-11ee-b26f-022876d1ca7c .box1 {grid-column: 1/4; grid-row: 1/4;}
