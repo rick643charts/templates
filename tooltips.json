@@ -28,7 +28,8 @@
     },
     "Pitch%": {
         "definition": "Pitch type usage / total pitches thrown",
-        "lookup_prefix": "usage_pct"
+        "lookup_prefix": "usage_pct",
+        "rate": true
     },
     "BIP": {
         "definition": "Total Batted Balls"
@@ -98,52 +99,62 @@
     },
     "SB%": {
         "definition": "Stolen Base rate",
-        "lookup_prefix": "stolen_base_pct"
+        "lookup_prefix": "stolen_base_pct",
+        "rate": true
     },
     "BA": {
         "definition": "Batting Average",
         "lookup_prefix": "ba",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "OBP": {
         "definition": "On-Base Percentage",
         "lookup_prefix": "obp",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "SLG": {
         "definition": "Slugging Percentage",
         "lookup_prefix": "slg",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "OPS": {
         "definition": "On-Base + Slugging",
         "lookup_prefix": "ops",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "BABIP": {
         "definition": "Batting Average on Balls in Play",
         "lookup_prefix": "babip",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "ISO": {
         "definition": "Isolated Power: Slugging% less Singles",
         "lookup_prefix": "iso",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "QAB": {
         "definition": "Quality At-Bat rate",
         "lookup_prefix": "qab",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "wOBA": {
         "definition": "Weighted On-Base Average: crediting a hitter for the value of each outcome, i.e. single, double, etc., rather than treating all hits or times on base equally",
         "lookup_prefix": "woba",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "xwOBA": {
         "definition": "Expected Weighted On-Base Average: crediting a hitter for the value of each outcome (expected for batted balls), i.e. single, double, etc., rather than treating all hits or times on base equally",
         "lookup_prefix": "xwoba",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "wRAA": {
         "definition": "Weighted Runs Above Average: the number of offensive runs a player contributes to their team compared to the average player at their level",
@@ -156,17 +167,20 @@
     "K%": {
         "definition": "Strikeout Percentage: K / PA",
         "lookup_prefix": "strikeout_rate",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "BB%": {
         "definition": "Walk Percentage: BB/ PA",
         "lookup_prefix": "walk_rate",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "K-BB%": {
         "definition": "Strikeout Rate - Walk Rate",
         "lookup_prefix": "k_minus_bb",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "Pull": {
         "definition": "Percentage of balls in play hit to the batter's pull side"
@@ -180,32 +194,38 @@
     "GB%": {
         "definition": "Groundball Rate (no. of groundballs/batted balls)",
         "lookup_prefix": "groundball_rate",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "FB%": {
         "definition": "Fly Ball Rate (no. of fly balls/batted balls)",
         "lookup_prefix": "flyball_rate",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "LD%": {
         "definition": "Line Drive Rate (no. of line drives/batted balls)",
         "lookup_prefix": "linedrive_rate",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "PU%": {
         "definition": "Pop-Up Rate (no. of pop-ups/batted balls)",
         "lookup_prefix": "popup_rate",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "GDP%": {
         "definition": "Grounded into Double Play rate",
         "lookup_prefix": "gdp_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "HR/FB": {
         "definition": "Home Runs per Fly Ball",
         "lookup_prefix": "hr_fb",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "EV": {
         "definition": "Average Exit Velocity on batted balls",
@@ -229,7 +249,8 @@
     "HH%": {
         "definition": "Percentage of batted balls with a 95 mph exit velocity or higher",
         "lookup_prefix": "hh_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "HH LA": {
         "definition": "Average launch angle on hard hit batted balls, i.e. 95 mph exit velocity or higher",
@@ -244,7 +265,8 @@
     "Barrel%": {
         "definition": "Percentage of batted balls that were barreled based on their EV/LA combo",
         "lookup_prefix": "barrel_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "Total Barrels": {
         "definition": "Total Barrels",
@@ -253,7 +275,8 @@
     "SwSpot%": {
         "definition": "Sweet spot percentage, i.e. percentage of batted balls with a launch angle between 8 and 32 degrees",
         "lookup_prefix": "sweet_spot",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "Velo": {
         "definition": "Pitch Velocity",
@@ -325,96 +348,114 @@
         "definition": "Percentage of pitches thrown for strikes",
         "lookup_prefix": "strike_pct",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "K-Strike%": {
         "definition": "Called strike percentage",
         "lookup_prefix": "called_strike_pct",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "SW-Strike%": {
         "definition": "Swinging strike percentage",
         "lookup_prefix": "swinging_strike_pct",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "Zone%": {
         "definition": "Percentage of pitches within the strike zone",
         "lookup_prefix": "zone_pct",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "Shadow%": {
         "definition": "Percentage of pitches within the shadow zone (the edges of the strike zone)",
         "lookup_prefix": "shadow_zone_pct",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "Heart%": {
         "definition": "Percentage of pitches within the heart of the plate",
         "lookup_prefix": "heart_zone_pct",
         "sort": "desc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "Swing%": {
         "definition": "Percentage of total pitches swung at",
         "lookup_prefix": "swing_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "Z-Swing%": {
         "definition": "Total swings on pitches inside the zone / total pitches inside the zone",
         "lookup_prefix": "z_swing_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "Contact%": {
         "definition": "Total pitches on which contact was made / total swings",
         "lookup_prefix": "contact_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "Z-Contact%": {
         "definition": "Total pitches on which contact was made inside the zone / total swings on pitches inside the zone",
         "lookup_prefix": "z_contact_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "O-Contact%": {
         "definition": "Total pitches on which contact was made outside the zone / total swings on pitches outside the zone",
         "lookup_prefix": "o_contact_pct",
-        "sort": "desc"
+        "sort": "desc",
+        "rate": true
     },
     "Chase%": {
         "definition": "Total pitches swung at outside the zone / total pitches seen outside the zone",
         "lookup_prefix": "chase_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "Whiff%": {
         "definition": "Total swing-and-misses / total swings",
         "lookup_prefix": "whiff_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "Z-Whiff%": {
         "definition": "Total swing-and-misses inside the zone / total swings inside the zone",
         "lookup_prefix": "z_whiff_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "CSW": {
         "definition": "Called strike plus whiff percentage",
         "lookup_prefix": "csw",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "F-Swing%": {
         "definition": "First pitch swing percentage",
-        "lookup_prefix": "f_swing_pct"
+        "lookup_prefix": "f_swing_pct",
+        "rate": true
     },
     "Put Away%": {
         "definition": "Rate of two-strike pitches that result in a strikeout",
         "lookup_prefix": "putaway_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "1P K": {
         "definition": "First pitch strike percentage",
         "lookup_prefix": "f_strike_pct",
-        "sort": "asc"
+        "sort": "asc",
+        "rate": true
     },
     "ERA": {
         "definition": "Earned Run Average",
@@ -444,18 +485,20 @@
         "definition": "1-1 count win percentage",
         "sort": "desc",
         "po": true,
-        "po": true
+        "rate": true
     },
     "LOB": {
         "definition": "Left on Base rate",
         "lookup_prefix": "left_on_base",
         "sort": "asc",
-        "po": true
+        "po": true,
+        "rate": true
     },
     "xBA": {
         "definition": "Expected Batting Average",
         "lookup_prefix": "xba",
-        "sort": "desc"
+        "sort": "desc",
+        "average": true
     },
     "SD+": {
         "definition": "Swing Decision+: Grading swing decisions independent of results. (league avg. = 100)",
@@ -502,6 +545,7 @@
         "definition": "Early + Ahead: BIP% on 3 pitches or less + % PA where a 0-2 or 1-2 count is achieved",
         "lookup_prefix": "e_plus_a",
         "sort": "desc",
-        "po": true
+        "po": true,
+        "rate": true
     }
 }
