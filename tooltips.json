@@ -402,6 +402,15 @@
         "lookup_prefix": "csw",
         "sort": "asc"
     },
+    "F-Swing%": {
+        "definition": "First pitch swing percentage",
+        "lookup_prefix": "f_swing_pct"
+    },
+    "Put Away%": {
+        "definition": "Rate of two-strike pitches that result in a strikeout",
+        "lookup_prefix": "putaway_pct",
+        "sort": "asc"
+    },
     "1P K": {
         "definition": "First pitch strike percentage",
         "lookup_prefix": "f_strike_pct",
