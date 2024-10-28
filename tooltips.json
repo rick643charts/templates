@@ -310,7 +310,7 @@
     },
     "HB": {
         "definition": "Horizontal Break: The amount of lateral movement a pitch experiences due to the spin imparted on the ball, measured in inches. A positive number means the breaks was to the right from the pitcher's perspective, while negative is breaking to the left",
-        "lookup_prefix": "velo",
+        "lookup_prefix": "hb",
         "sort": "asc",
         "po": true
     },
@@ -471,7 +471,7 @@
     },
     "xFIP": {
         "definition": "Expected Fielding Independent Pitching: Estimating a pitcher's run prevention independent of defense while also normalizing HR/FB%",
-        "lookup_prefix": "iso",
+        "lookup_prefix": "xfip",
         "sort": "desc",
         "po": true
     },
