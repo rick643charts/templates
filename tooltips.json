@@ -1,0 +1,498 @@
+{
+    "Event": {
+        "definition": "Event Name"
+    },
+    "Date": {
+        "definition": "Event Date"
+    },
+    "Bullpen": {
+        "definition": "Date of Bullpen"
+    },
+    "Batter": {
+        "definition": "Batter Name"
+    },
+    "Pitcher": {
+        "definition": "Pitcher Name"
+    },
+    "Position": {
+        "definition": "Player's Main Position"
+    },
+    "Pitch Type": {
+        "definition": "Pitch Type"
+    },
+    "Pitches": {
+        "definition": "Number of Pitches"
+    },
+    "NP": {
+        "definition": "Number of Pitches"
+    },
+    "Pitch%": {
+        "definition": "Pitch type usage / total pitches thrown",
+        "lookup_prefix": "usage_pct"
+    },
+    "BIP": {
+        "definition": "Total Batted Balls"
+    },
+    "BBE": {
+        "definition": "Batted Ball Events"
+    },
+    "PA": {
+        "definition": "Total Plate Appearances"
+    },
+    "AB": {
+        "definition": "Total At-Bats: PA - BB - HBP - SAC - SF"
+    },
+    "BF": {
+        "definition": "Batters Faced"
+    },
+    "IP": {
+        "definition": "Total Innings Pitched"
+    },
+    "WHIP": {
+        "definition": "Walks plus hits per inning pitched"
+    },
+    "H": {
+        "definition": "Total Hits: 1B + 2B + 3B + HR"
+    },
+    "1B": {
+        "definition": "Total Singles"
+    },
+    "2B": {
+        "definition": "Total Doubles"
+    },
+    "3B": {
+        "definition": "Total Triples"
+    },
+    "HR": {
+        "definition": "Total Homeruns"
+    },
+    "K": {
+        "definition": "Total Strikeouts"
+    },
+    "BB": {
+        "definition": "Total Walks"
+    },
+    "IBB": {
+        "definition": "Total Intentional Walks"
+    },
+    "BK": {
+        "definition": "Total Balks"
+    },
+    "HBP": {
+        "definition": "Total Hit by Pitches"
+    },
+    "SAC": {
+        "definition": "Total Sacrifice Hits"
+    },
+    "SF": {
+        "definition": "Total Sacrifice Flies"
+    },
+    "R": {
+        "definition": "Runs Scored"
+    },
+    "RBI": {
+        "definition": "Runs Batted In"
+    },
+    "SB": {
+        "definition": "Stolen Bases"
+    },
+    "SB%": {
+        "definition": "Stolen Base rate",
+        "lookup_prefix": "stolen_base_pct"
+    },
+    "BA": {
+        "definition": "Batting Average",
+        "lookup_prefix": "ba",
+        "sort": "desc"
+    },
+    "OBP": {
+        "definition": "On-Base Percentage",
+        "lookup_prefix": "obp",
+        "sort": "desc"
+    },
+    "SLG": {
+        "definition": "Slugging Percentage",
+        "lookup_prefix": "slg",
+        "sort": "desc"
+    },
+    "OPS": {
+        "definition": "On-Base + Slugging",
+        "lookup_prefix": "ops",
+        "sort": "desc"
+    },
+    "BABIP": {
+        "definition": "Batting Average on Balls in Play",
+        "lookup_prefix": "babip",
+        "sort": "desc"
+    },
+    "ISO": {
+        "definition": "Isolated Power: Slugging% less Singles",
+        "lookup_prefix": "iso",
+        "sort": "desc"
+    },
+    "QAB": {
+        "definition": "Quality At-Bat rate",
+        "lookup_prefix": "qab",
+        "sort": "desc"
+    },
+    "wOBA": {
+        "definition": "Weighted On-Base Average: crediting a hitter for the value of each outcome, i.e. single, double, etc., rather than treating all hits or times on base equally",
+        "lookup_prefix": "woba",
+        "sort": "desc"
+    },
+    "xwOBA": {
+        "definition": "Expected Weighted On-Base Average: crediting a hitter for the value of each outcome (expected for batted balls), i.e. single, double, etc., rather than treating all hits or times on base equally",
+        "lookup_prefix": "xwoba",
+        "sort": "desc"
+    },
+    "wRAA": {
+        "definition": "Weighted Runs Above Average: the number of offensive runs a player contributes to their team compared to the average player at their level",
+        "lookup_prefix": "wraa"
+    },
+    "wRC+": {
+        "definition": "Weighted Runs Created +: Quantifying a player's total offensive value and measuring it by runs before scaling league average to equal 100",
+        "lookup_prefix": "wrc_plus"
+    },
+    "K%": {
+        "definition": "Strikeout Percentage: K / PA",
+        "lookup_prefix": "strikeout_rate",
+        "sort": "asc"
+    },
+    "BB%": {
+        "definition": "Walk Percentage: BB/ PA",
+        "lookup_prefix": "walk_rate",
+        "sort": "desc"
+    },
+    "K-BB%": {
+        "definition": "Strikeout Rate - Walk Rate",
+        "lookup_prefix": "k_minus_bb",
+        "sort": "asc"
+    },
+    "Pull": {
+        "definition": "Percentage of balls in play hit to the batter's pull side"
+    },
+    "Middle": {
+        "definition": "Percentage of balls in play hit to the middle of the field"
+    },
+    "Oppo": {
+        "definition": "Percentage of balls in play hit to the batter's opposite field side"
+    },
+    "GB%": {
+        "definition": "Groundball Rate (no. of groundballs/batted balls)",
+        "lookup_prefix": "groundball_rate",
+        "sort": "asc"
+    },
+    "FB%": {
+        "definition": "Fly Ball Rate (no. of fly balls/batted balls)",
+        "lookup_prefix": "flyball_rate",
+        "sort": "desc"
+    },
+    "LD%": {
+        "definition": "Line Drive Rate (no. of line drives/batted balls)",
+        "lookup_prefix": "linedrive_rate",
+        "sort": "desc"
+    },
+    "PU%": {
+        "definition": "Pop-Up Rate (no. of pop-ups/batted balls)",
+        "lookup_prefix": "popup_rate",
+        "sort": "asc"
+    },
+    "GDP%": {
+        "definition": "Grounded into Double Play rate",
+        "lookup_prefix": "gdp_pct",
+        "sort": "asc"
+    },
+    "HR/FB": {
+        "definition": "Home Runs per Fly Ball",
+        "lookup_prefix": "hr_fb",
+        "sort": "desc"
+    },
+    "EV": {
+        "definition": "Average Exit Velocity on batted balls",
+        "lookup_prefix": "ev",
+        "sort": "desc"
+    },
+    "EV 90": {
+        "definition": "90th Percentile Exit Velocity on batted balls (min. 0° launch angle)",
+        "lookup_prefix": "ev_90",
+        "sort": "desc"
+    },
+    "Max EV": {
+        "definition": "Highest Exit Velocity Batted Ball (min. 0° launch angle)",
+        "lookup_prefix": "max_ev",
+        "sort": "desc"
+    },
+    "LA": {
+        "definition": "Average Launch Angle on Batted Balls",
+        "lookup_prefix": "la"
+    },
+    "HH%": {
+        "definition": "Percentage of batted balls with a 95 mph exit velocity or higher",
+        "lookup_prefix": "hh_pct",
+        "sort": "desc"
+    },
+    "HH LA": {
+        "definition": "Average launch angle on hard hit batted balls, i.e. 95 mph exit velocity or higher",
+        "lookup_prefix": "hh_la",
+        "sort": "desc"
+    },
+    "Bat Speed": {
+        "definition": "Computed bat speed (estimate)",
+        "lookup_prefix": "bat_speed",
+        "sort": "desc"
+    },
+    "Barrel%": {
+        "definition": "Percentage of batted balls that were barreled based on their EV/LA combo",
+        "lookup_prefix": "barrel_pct",
+        "sort": "desc"
+    },
+    "Total Barrels": {
+        "definition": "Total Barrels",
+        "lookup_prefix": "total_barrels"
+    },
+    "SwSpot%": {
+        "definition": "Sweet spot percentage, i.e. percentage of batted balls with a launch angle between 8 and 32 degrees",
+        "lookup_prefix": "sweet_spot",
+        "sort": "desc"
+    },
+    "Velo": {
+        "definition": "Pitch Velocity",
+        "lookup_prefix": "velo",
+        "sort": "asc",
+        "po": true
+    },
+    "Velo 90": {
+        "definition": "90th Percentile Pitch Velocity",
+        "lookup_prefix": "velo_90",
+        "sort": "asc",
+        "po": true
+    },
+    "Max Velo": {
+        "definition": "Max Pitch Velocity",
+        "lookup_prefix": "max_velo",
+        "sort": "asc",
+        "po": true
+    },
+    "Spin Rate": {
+        "definition": "Raw Spin Rate (RPM)",
+        "lookup_prefix": "spin_rate",
+        "sort": "asc",
+        "po": true
+    },
+    "iVB": {
+        "definition": "Induced Vertical Break: The amount of vertical movement a pitch experiences due to the spin imparted on the ball, measured in inches, controlling for gravity",
+        "lookup_prefix": "ivb",
+        "sort": "asc",
+        "po": true
+    },
+    "HB": {
+        "definition": "Horizontal Break: The amount of lateral movement a pitch experiences due to the spin imparted on the ball, measured in inches. A positive number means the breaks was to the right from the pitcher's perspective, while negative is breaking to the left",
+        "lookup_prefix": "velo",
+        "sort": "asc",
+        "po": true
+    },
+    "Vert Appr": {
+        "definition": "Verical Approach Angle: angle at which the pitch crosses home plate (i.e., how steep or flat the pitch is)",
+        "lookup_prefix": "vaa",
+        "sort": "asc",
+        "po": true
+    },
+    "Horz Appr": {
+        "definition": "Horizontal Spproach Angle: The angle at which the ball crosses the plate laterally. Pitches moving to the right from the pitcher's perspective will have a positive HAA",
+        "lookup_prefix": "haa",
+        "sort": "asc",
+        "po": true
+    },
+    "Extension": {
+        "definition": "Distance from home plate from which the pitcher releases the ball relative to the rubber",
+        "lookup_prefix": "extension",
+        "sort": "asc",
+        "po": true
+    },
+    "RelHeight": {
+        "definition": "Vertical height from which the pitcher releases the ball relative to the rubber",
+        "lookup_prefix": "rel_height",
+        "sort": "asc",
+        "po": true
+    },
+    "RelSide": {
+        "definition": "Horizontal distance from which the pitcher releases the ball relative to the rubber",
+        "lookup_prefix": "rel_side",
+        "sort": "asc",
+        "po": true
+    },
+    "Strike%": {
+        "definition": "Percentage of pitches thrown for strikes",
+        "lookup_prefix": "swing_pct",
+        "sort": "asc",
+        "po": true
+    },
+    "K-Strike%": {
+        "definition": "Called strike percentage",
+        "lookup_prefix": "called_strike_pct",
+        "sort": "asc",
+        "po": true
+    },
+    "SW-Strike%": {
+        "definition": "Swinging strike percentage",
+        "lookup_prefix": "swinging_strike_pct",
+        "sort": "asc",
+        "po": true
+    },
+    "Zone%": {
+        "definition": "Percentage of pitches within the strike zone",
+        "lookup_prefix": "zone_pct",
+        "sort": "asc",
+        "po": true
+    },
+    "Shadow%": {
+        "definition": "Percentage of pitches within the shadow zone (the edges of the strike zone)",
+        "lookup_prefix": "shadow_zone_pct",
+        "sort": "asc",
+        "po": true
+    },
+    "Heart%": {
+        "definition": "Percentage of pitches within the heart of the plate",
+        "lookup_prefix": "heart_zone_pct",
+        "sort": "desc",
+        "po": true
+    },
+    "Swing%": {
+        "definition": "Percentage of total pitches swung at",
+        "lookup_prefix": "swing_pct",
+        "sort": "asc"
+    },
+    "Z-Swing%": {
+        "definition": "Total swings on pitches inside the zone / total pitches inside the zone",
+        "lookup_prefix": "z_swing_pct",
+        "sort": "desc"
+    },
+    "Contact%": {
+        "definition": "Total pitches on which contact was made / total swings",
+        "lookup_prefix": "contact_pct",
+        "sort": "desc"
+    },
+    "Z-Contact%": {
+        "definition": "Total pitches on which contact was made inside the zone / total swings on pitches inside the zone",
+        "lookup_prefix": "z_contact_pct",
+        "sort": "desc"
+    },
+    "O-Contact%": {
+        "definition": "Total pitches on which contact was made outside the zone / total swings on pitches outside the zone",
+        "lookup_prefix": "o_contact_pct",
+        "sort": "desc"
+    },
+    "Chase%": {
+        "definition": "Total pitches swung at outside the zone / total pitches seen outside the zone",
+        "lookup_prefix": "chase_pct",
+        "sort": "asc"
+    },
+    "Whiff%": {
+        "definition": "Total swing-and-misses / total swings",
+        "lookup_prefix": "whiff_pct",
+        "sort": "asc"
+    },
+    "Z-Whiff%": {
+        "definition": "Total swing-and-misses inside the zone / total swings inside the zone",
+        "lookup_prefix": "z_whiff_pct",
+        "sort": "asc"
+    },
+    "CSW": {
+        "definition": "Called strike plus whiff percentage",
+        "lookup_prefix": "csw",
+        "sort": "asc"
+    },
+    "1P K": {
+        "definition": "First pitch strike percentage",
+        "lookup_prefix": "f_strike_pct",
+        "sort": "asc"
+    },
+    "ERA": {
+        "definition": "Earned Run Average",
+        "lookup_prefix": "era",
+        "sort": "desc",
+        "po": true
+    },
+    "FIP": {
+        "definition": "Fielding Independent Pitching: Estimating a pitcher's run prevention independent of defense",
+        "lookup_prefix": "fip",
+        "sort": "desc",
+        "po": true
+    },
+    "xFIP": {
+        "definition": "Expected Fielding Independent Pitching: Estimating a pitcher's run prevention independent of defense while also normalizing HR/FB%",
+        "lookup_prefix": "iso",
+        "sort": "desc",
+        "po": true
+    },
+    "SIERA": {
+        "definition": "Skill-Interactive ERA: Attempting to model the underlying skill level of a pitcher",
+        "lookup_prefix": "siera",
+        "sort": "desc",
+        "po": true
+    },
+    "1-1 W": {
+        "definition": "1-1 count win percentage",
+        "sort": "desc",
+        "po": true,
+        "po": true
+    },
+    "LOB": {
+        "definition": "Left on Base rate",
+        "lookup_prefix": "left_on_base",
+        "sort": "asc",
+        "po": true
+    },
+    "xBA": {
+        "definition": "Expected Batting Average",
+        "lookup_prefix": "xba",
+        "sort": "desc"
+    },
+    "SD+": {
+        "definition": "Swing Decision+: Grading swing decisions independent of results. (league avg. = 100)",
+        "lookup_prefix": "sd_plus",
+        "sort": "desc"
+    },
+    "Stuff+": {
+        "definition": "Grading pitch quality solely on physical factors of Stuff (e.g., velo, spin, movement, etc.) - quantifying nastiness compared to all other pitch types",
+        "lookup_prefix": "stuff_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "Command+": {
+        "definition": "Grading pitch quality solely on location, independent of any factors of Stuff, compared to all other pitch types",
+        "lookup_prefix": "command_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "xRV+": {
+        "definition": "Expected Run Value+: Grading pitch quality in totality with factors of Stuff, Command, and Deception compared to all other pitch types",
+        "lookup_prefix": "xrv_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "Anomaly+": {
+        "definition": "A factor of deception included in xRV. Grading how unique a pitcher's release traits & approach angles they create are",
+        "lookup_prefix": "anomaly_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "Tunnel+": {
+        "definition": "A factor of deception included in xRV. Comparing pitch trajectories (ratio of location at hitter's decision point to where the pitch crosses the plate) to quantify pitch tunneling",
+        "lookup_prefix": "tunnel_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "PredMovDiff+": {
+        "definition": "A factor of deception included in xRV. Comparing a pitch's movement characteristics to what's expected given his release traits. Those that can deviate from what's expected are more deceptive",
+        "lookup_prefix": "pred_mov_diff_plus",
+        "sort": "desc",
+        "po": true
+    },
+    "E+A%": {
+        "definition": "Early + Ahead: BIP% on 3 pitches or less + % PA where a 0-2 or 1-2 count is achieved",
+        "lookup_prefix": "e_plus_a",
+        "sort": "desc",
+        "po": true
+    }
+}
