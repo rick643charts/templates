@@ -302,6 +302,11 @@
         "sort": "asc",
         "po": true
     },
+    "Spin Axis": {
+        "definition": "Direction in which the ball is spinning, reported in degrees of tilt",
+        "lookup_prefix": "spin_axis",
+        "po": true
+    },
     "iVB": {
         "definition": "Induced Vertical Break: The amount of vertical movement a pitch experiences due to the spin imparted on the ball, measured in inches, controlling for gravity",
         "lookup_prefix": "ivb",
@@ -310,7 +315,7 @@
     },
     "HB": {
         "definition": "Horizontal Break: The amount of lateral movement a pitch experiences due to the spin imparted on the ball, measured in inches. A positive number means the breaks was to the right from the pitcher's perspective, while negative is breaking to the left",
-        "lookup_prefix": "hb",
+        "lookup_prefix": "hb_av",
         "sort": "asc",
         "po": true
     },
@@ -322,7 +327,7 @@
     },
     "Horz Appr": {
         "definition": "Horizontal Spproach Angle: The angle at which the ball crosses the plate laterally. Pitches moving to the right from the pitcher's perspective will have a positive HAA",
-        "lookup_prefix": "haa",
+        "lookup_prefix": "haa_av",
         "sort": "asc",
         "po": true
     },
@@ -340,7 +345,7 @@
     },
     "RelSide": {
         "definition": "Horizontal distance from which the pitcher releases the ball relative to the rubber",
-        "lookup_prefix": "rel_side",
+        "lookup_prefix": "rel_side_av",
         "sort": "asc",
         "po": true
     },
