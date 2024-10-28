@@ -323,7 +323,7 @@
     },
     "Strike%": {
         "definition": "Percentage of pitches thrown for strikes",
-        "lookup_prefix": "swing_pct",
+        "lookup_prefix": "strike_pct",
         "sort": "asc",
         "po": true
     },
