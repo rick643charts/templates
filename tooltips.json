@@ -555,32 +555,32 @@
         "rate": true
     },
     "Heater Velo": {
-        "lookup_prefix": "heater_velo"
+        "lookup_prefix": "heater_velo",
         "sort": "asc",
         "po": true
     },
     "Heater Spin": {
-        "lookup_prefix": "heater_spin"
+        "lookup_prefix": "heater_spin",
         "sort": "asc",
         "po": true
     },
     "Heater Ride": {
-        "lookup_prefix": "heater_ride"
+        "lookup_prefix": "heater_ride",
         "sort": "asc",
         "po": true
     },
     "Heater Run": {
-        "lookup_prefix": "heater_run"
+        "lookup_prefix": "heater_run",
         "sort": "asc",
         "po": true
     },
     "Heater-Offspeed Velo Diff": {
-        "lookup_prefix": "heater_offspeed_velo_diff"
+        "lookup_prefix": "heater_offspeed_velo_diff",
         "sort": "asc",
         "po": true
     },
     "Breaking Spin": {
-        "lookup_prefix": "breaking_spin"
+        "lookup_prefix": "breaking_spin",
         "sort": "asc",
         "po": true
     }
