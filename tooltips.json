@@ -517,6 +517,21 @@
         "lookup_prefix": "xrv_plus",
         "po": true
     },
+    "pStuff+": {
+        "definition": "Stuff+, but relative to pitches of the same type",
+        "lookup_prefix": "pstuff_plus",
+        "po": true
+    },
+    "pCommand+": {
+        "definition": "Command+, but relative to pitches of the same type",
+        "lookup_prefix": "pcommand_plus",
+        "po": true
+    },
+    "pxRV+": {
+        "definition": "xRV+, but relative to pitches of the same type",
+        "lookup_prefix": "pxrv_plus",
+        "po": true
+    },
     "Anomaly+": {
         "definition": "A factor of deception included in xRV. Grading how unique a pitcher's release traits & approach angles they create are",
         "lookup_prefix": "anomaly_plus",
