@@ -310,43 +310,36 @@
     "iVB": {
         "definition": "Induced Vertical Break: The amount of vertical movement a pitch experiences due to the spin imparted on the ball, measured in inches, controlling for gravity",
         "lookup_prefix": "ivb",
-        "sort": "asc",
         "po": true
     },
     "HB": {
         "definition": "Horizontal Break: The amount of lateral movement a pitch experiences due to the spin imparted on the ball, measured in inches. A positive number means the breaks was to the right from the pitcher's perspective, while negative is breaking to the left",
         "lookup_prefix": "hb_av",
-        "sort": "asc",
         "po": true
     },
     "Vert Appr": {
         "definition": "Verical Approach Angle: angle at which the pitch crosses home plate (i.e., how steep or flat the pitch is)",
         "lookup_prefix": "vaa",
-        "sort": "asc",
         "po": true
     },
     "Horz Appr": {
         "definition": "Horizontal Spproach Angle: The angle at which the ball crosses the plate laterally. Pitches moving to the right from the pitcher's perspective will have a positive HAA",
         "lookup_prefix": "haa_av",
-        "sort": "asc",
         "po": true
     },
     "Extension": {
         "definition": "Distance from home plate from which the pitcher releases the ball relative to the rubber",
         "lookup_prefix": "extension",
-        "sort": "asc",
         "po": true
     },
     "RelHeight": {
         "definition": "Vertical height from which the pitcher releases the ball relative to the rubber",
         "lookup_prefix": "rel_height",
-        "sort": "asc",
         "po": true
     },
     "RelSide": {
         "definition": "Horizontal distance from which the pitcher releases the ball relative to the rubber",
         "lookup_prefix": "rel_side_av",
-        "sort": "asc",
         "po": true
     },
     "Strike%": {
@@ -507,43 +500,36 @@
     },
     "SD+": {
         "definition": "Swing Decision+: Grading swing decisions independent of results. (league avg. = 100)",
-        "lookup_prefix": "sd_plus",
-        "sort": "desc"
+        "lookup_prefix": "sd_plus"
     },
     "Stuff+": {
         "definition": "Grading pitch quality solely on physical factors of Stuff (e.g., velo, spin, movement, etc.) - quantifying nastiness compared to all other pitch types",
         "lookup_prefix": "stuff_plus",
-        "sort": "desc",
         "po": true
     },
     "Command+": {
         "definition": "Grading pitch quality solely on location, independent of any factors of Stuff, compared to all other pitch types",
         "lookup_prefix": "command_plus",
-        "sort": "desc",
         "po": true
     },
     "xRV+": {
         "definition": "Expected Run Value+: Grading pitch quality in totality with factors of Stuff, Command, and Deception compared to all other pitch types",
         "lookup_prefix": "xrv_plus",
-        "sort": "desc",
         "po": true
     },
     "Anomaly+": {
         "definition": "A factor of deception included in xRV. Grading how unique a pitcher's release traits & approach angles they create are",
         "lookup_prefix": "anomaly_plus",
-        "sort": "desc",
         "po": true
     },
     "Tunnel+": {
         "definition": "A factor of deception included in xRV. Comparing pitch trajectories (ratio of location at hitter's decision point to where the pitch crosses the plate) to quantify pitch tunneling",
         "lookup_prefix": "tunnel_plus",
-        "sort": "desc",
         "po": true
     },
     "PredMovDiff+": {
         "definition": "A factor of deception included in xRV. Comparing a pitch's movement characteristics to what's expected given his release traits. Those that can deviate from what's expected are more deceptive",
         "lookup_prefix": "pred_mov_diff_plus",
-        "sort": "desc",
         "po": true
     },
     "E+A%": {
@@ -552,5 +538,23 @@
         "sort": "desc",
         "po": true,
         "rate": true
+    },
+    "Heater Velo": {
+        "lookup_prefix": "heater_velo"
+    },
+    "Heater Spin": {
+        "lookup_prefix": "heater_spin"
+    },
+    "Heater Ride": {
+        "lookup_prefix": "heater_ride"
+    },
+    "Heater Run": {
+        "lookup_prefix": "heater_run"
+    },
+    "Heater-Offspeed Velo Diff": {
+        "lookup_prefix": "heater_offspeed_velo_diff"
+    },
+    "Breaking Spin": {
+        "lookup_prefix": "breaking_spin"
     }
 }
