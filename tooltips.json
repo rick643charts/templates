@@ -351,6 +351,7 @@
     },
     "K-Strike%": {
         "definition": "Called strike percentage",
+        "aliases": ["KStr%"],
         "lookup_prefix": "called_strike_pct",
         "sort": "asc",
         "po": true,
@@ -358,6 +359,7 @@
     },
     "SW-Strike%": {
         "definition": "Swinging strike percentage",
+        "aliases": ["SwStr%"],
         "lookup_prefix": "swinging_strike_pct",
         "sort": "asc",
         "po": true,
@@ -440,6 +442,7 @@
     },
     "F-Swing%": {
         "definition": "First pitch swing percentage",
+        "aliases": ["1P SW"],
         "lookup_prefix": "f_swing_pct",
         "rate": true
     },
