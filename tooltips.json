@@ -388,6 +388,7 @@
     },
     "Swing%": {
         "definition": "Percentage of total pitches swung at",
+        "aliases": ["SW"],
         "lookup_prefix": "swing_pct",
         "sort": "asc",
         "rate": true
@@ -424,6 +425,7 @@
     },
     "Whiff%": {
         "definition": "Total swing-and-misses / total swings",
+        "aliases": ["S/M"],
         "lookup_prefix": "whiff_pct",
         "sort": "asc",
         "rate": true
@@ -450,6 +452,16 @@
         "definition": "Rate of two-strike pitches that result in a strikeout",
         "lookup_prefix": "putaway_pct",
         "sort": "asc",
+        "rate": true
+    },
+    "P/PA": {
+        "definition": "Pitches per plate appearances",
+        "lookup_prefix": "pitches_per_pa",
+        "rate": true
+    },
+    "TAKE 1K": {
+        "definition": "First strike take percentage",
+        "lookup_prefix": "first_strike_take_rate",
         "rate": true
     },
     "1P K": {
@@ -494,6 +506,11 @@
         "sort": "asc",
         "po": true,
         "rate": true
+    },
+    "SPD": {
+        "definition": "Speed score, between 1 (slowest) and 10 (fastest) with 5 being average speed",
+        "lookup_prefix": "speed_score",
+        "sort": "desc"
     },
     "xBA": {
         "definition": "Expected Batting Average",
