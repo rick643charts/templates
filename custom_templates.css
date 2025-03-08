@@ -1913,6 +1913,18 @@
 .master-layout-62a9d6ec-fa21-11ef-8a6a-020baaab0e15 .box10 {grid-column: 7/10; grid-row: 9/13;}
 .master-layout-62a9d6ec-fa21-11ef-8a6a-020baaab0e15 .box11 {grid-column: 10/13; grid-row: 9/13;}
 
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box1 {grid-column: 1/8; grid-row: 1/2;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box2 {grid-column: 8/13; grid-row: 1/2;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box3 {grid-column: 1/6; grid-row: 2/6;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box4 {grid-column: 6/10; grid-row: 2/6;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box5 {grid-column: 10/13; grid-row: 2/5;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box6 {grid-column: 1/10; grid-row: 6/7;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box7 {grid-column: 1/10; grid-row: 7/9;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box8 {grid-column: 1/10; grid-row: 9/11;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box9 {grid-column: 1/13; grid-row: 11/13;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box10 {grid-column: 10/13; grid-row: 5/8;}
+.master-layout-2c80130f-fc45-11ef-8a6a-020baaab0e15 .box11 {grid-column: 10/13; grid-row: 8/11;}
+
 /* --------------Portrait Layout Templates----------------- */
 
 .master-layout-343f228b-4c76-11ee-b26f-022876d1ca7c .box1 {grid-column: 1/4; grid-row: 1/4;}
@@ -2869,6 +2881,26 @@
 .master-layout-ef771c72-fbae-11ef-8a6a-020baaab0e15 .box12 {grid-column: 4/7; grid-row: 9/13;}
 .master-layout-ef771c72-fbae-11ef-8a6a-020baaab0e15 .box13 {grid-column: 7/10; grid-row: 9/13;}
 .master-layout-ef771c72-fbae-11ef-8a6a-020baaab0e15 .box14 {grid-column: 10/13; grid-row: 9/13;}
+
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box1 {grid-column: 1/13; grid-row: 1/2;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box2 {grid-column: 1/7; grid-row: 2/4;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box3 {grid-column: 7/13; grid-row: 2/4;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box4 {grid-column: 1/7; grid-row: 4/5;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box5 {grid-column: 7/13; grid-row: 4/5;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box6 {grid-column: 1/4; grid-row: 5/7;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box7 {grid-column: 4/7; grid-row: 5/7;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box8 {grid-column: 7/10; grid-row: 5/7;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box9 {grid-column: 10/13; grid-row: 5/7;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box9 {grid-column: 1/4; grid-row: 7/9;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box10 {grid-column: 4/7; grid-row: 7/9;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box11 {grid-column: 7/10; grid-row: 7/9;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box12 {grid-column: 10/13; grid-row: 7/9;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box13 {grid-column: 1/4; grid-row: 9/11;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box14 {grid-column: 4/7; grid-row: 9/11;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box15 {grid-column: 7/10; grid-row: 9/11;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box16 {grid-column: 10/13; grid-row: 9/11;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box17 {grid-column: 1/10; grid-row: 11/13;}
+.master-layout-b15bbe4b-fc38-11ef-8a6a-020baaab0e15 .box18 {grid-column: 10/13; grid-row: 11/13;}
 
 /* Row configurations */
 
