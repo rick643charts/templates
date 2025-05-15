@@ -2053,6 +2053,17 @@
 
 /* --------------Portrait Layout Templates----------------- */
 
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box1 {grid-column: 1/13; grid-row: 1/2;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box2 {grid-column: 1/13; grid-row: 2/4;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box3 {grid-column: 1/7; grid-row: 4/6;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box4 {grid-column: 7/13; grid-row: 4/6;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box5 {grid-column: 1/7; grid-row: 6/9;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box6 {grid-column: 7/13; grid-row: 6/9;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box7 {grid-column: 1/7; grid-row: 9/11;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box8 {grid-column: 7/13; grid-row: 9/11;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box9 {grid-column: 1/11; grid-row: 11/13;}
+.master-layout-57a06be7-31ba-11f0-9c3f-020baaab0e15 .box10 {grid-column: 11/13; grid-row: 11/13;}
+
 .master-layout-e49b7ac3-303a-11f0-9c3f-020baaab0e15 .box1 {grid-column: 1/7; grid-row: 1/2;}
 .master-layout-e49b7ac3-303a-11f0-9c3f-020baaab0e15 .box2 {grid-column: 7/13; grid-row: 1/2;}
 .master-layout-e49b7ac3-303a-11f0-9c3f-020baaab0e15 .box3 {grid-column: 1/5; grid-row: 2/3;}
