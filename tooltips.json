@@ -247,13 +247,13 @@
         "lookup_prefix": "la"
     },
     "HH%": {
-        "definition": "Percentage of batted balls with a 95 mph exit velocity or higher",
+        "definition": "Percentage of batted balls with a 95 mph exit velocity or higher (Softball - 65 mph)",
         "lookup_prefix": "hh_pct",
         "sort": "desc",
         "rate": true
     },
     "HH LA": {
-        "definition": "Average launch angle on hard hit batted balls, i.e. 95 mph exit velocity or higher",
+        "definition": "Average launch angle on hard hit batted balls, i.e. 95 mph exit velocity or higher (Softball - 65 mph)",
         "lookup_prefix": "hh_la",
         "sort": "desc"
     },
