@@ -150,12 +150,6 @@
         "sort": "desc",
         "average": true
     },
-    "xwOBA": {
-        "definition": "Expected Weighted On-Base Average: crediting a hitter for the value of each outcome (expected for batted balls), i.e. single, double, etc., rather than treating all hits or times on base equally",
-        "lookup_prefix": "xwoba",
-        "sort": "desc",
-        "average": true
-    },
     "wRAA": {
         "definition": "Weighted Runs Above Average: the number of offensive runs a player contributes to their team compared to the average player at their level",
         "lookup_prefix": "wraa"
@@ -514,7 +508,25 @@
     },
     "xBA": {
         "definition": "Expected Batting Average",
-        "lookup_prefix": "xba",
+        "lookup_prefix": "ba",
+        "sort": "desc",
+        "average": true
+    },
+    "xSLG": {
+        "definition": "Expected Slugging Percentage",
+        "lookup_prefix": "slg",
+        "sort": "desc",
+        "average": true
+    },
+    "xISO": {
+        "definition": "Expected Isolated Power",
+        "lookup_prefix": "iso",
+        "sort": "desc",
+        "average": true
+    },
+    "xwOBA": {
+        "definition": "Expected Weighted On-Base Average: crediting a hitter for the value of each outcome (expected for batted balls), i.e. single, double, etc., rather than treating all hits or times on base equally",
+        "lookup_prefix": "woba",
         "sort": "desc",
         "average": true
     },
