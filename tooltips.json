@@ -144,6 +144,15 @@
         "sort": "desc",
         "average": true
     },
+    "xQAB": {
+        "definition": "Expected Quality At-Bat rate",
+        "lookup_prefix": "xqab",
+        "sort": "desc",
+        "average": true
+    },
+    "nxQAB": {
+        "definition": "# of Expected Quality At-Bats"
+    },
     "wOBA": {
         "definition": "Weighted On-Base Average: crediting a hitter for the value of each outcome, i.e. single, double, etc., rather than treating all hits or times on base equally",
         "lookup_prefix": "woba",
