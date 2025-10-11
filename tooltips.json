@@ -624,5 +624,43 @@
         "lookup_prefix": "breaking_spin",
         "sort": "asc",
         "po": true
+    },
+    "Infield OAA": {
+        "lookup_prefix": "oaa_if",
+        "sort": "desc"
+    },
+    "Infield OAA Routine": {
+        "lookup_prefix": "high_prob_out_added_if",
+        "sort": "desc",
+        "rate": true
+    },
+    "Infield OAA 50/50": {
+        "lookup_prefix": "mid_prob_out_added_if",
+        "sort": "desc",
+        "rate": true
+    },
+    "Infield OAA Difficult": {
+        "lookup_prefix": "low_prob_out_added_if",
+        "sort": "desc",
+        "rate": true
+    },
+    "Outfield OAA": {
+        "lookup_prefix": "oaa_of",
+        "sort": "desc"
+    },
+    "Outfield OAA Routine": {
+        "lookup_prefix": "high_prob_out_added_of",
+        "sort": "desc",
+        "rate": true
+    },
+    "Outfield OAA 50/50": {
+        "lookup_prefix": "mid_prob_out_added_of",
+        "sort": "desc",
+        "rate": true
+    },
+    "Outfield OAA Difficult": {
+        "lookup_prefix": "low_prob_out_added_of",
+        "sort": "desc",
+        "rate": true
     }
 }
