@@ -630,17 +630,17 @@
         "sort": "desc"
     },
     "Infield OAA Routine": {
-        "lookup_prefix": "high_prob_out_added_if",
+        "lookup_prefix": "high_prob_net_pct_if",
         "sort": "desc",
         "rate": true
     },
     "Infield OAA 50/50": {
-        "lookup_prefix": "mid_prob_out_added_if",
+        "lookup_prefix": "mid_prob_net_pct_if",
         "sort": "desc",
         "rate": true
     },
     "Infield OAA Difficult": {
-        "lookup_prefix": "low_prob_out_added_if",
+        "lookup_prefix": "low_prob_net_pct_if",
         "sort": "desc",
         "rate": true
     },
@@ -649,17 +649,17 @@
         "sort": "desc"
     },
     "Outfield OAA Routine": {
-        "lookup_prefix": "high_prob_out_added_of",
+        "lookup_prefix": "high_prob_net_pct_of",
         "sort": "desc",
         "rate": true
     },
     "Outfield OAA 50/50": {
-        "lookup_prefix": "mid_prob_out_added_of",
+        "lookup_prefix": "mid_prob_net_pct_of",
         "sort": "desc",
         "rate": true
     },
     "Outfield OAA Difficult": {
-        "lookup_prefix": "low_prob_out_added_of",
+        "lookup_prefix": "low_prob_net_pct_of",
         "sort": "desc",
         "rate": true
     }
