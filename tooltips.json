@@ -629,6 +629,10 @@
         "lookup_prefix": "oaa_if",
         "sort": "desc"
     },
+    "Infield OAA/100": {
+        "lookup_prefix": "oaa_p100_if",
+        "sort": "desc"
+    },
     "Infield OAA Routine": {
         "lookup_prefix": "high_prob_net_pct_if",
         "sort": "desc",
@@ -646,6 +650,10 @@
     },
     "Outfield OAA": {
         "lookup_prefix": "oaa_of",
+        "sort": "desc"
+    },
+    "Outfield OAA/100": {
+        "lookup_prefix": "oaa_p100_of",
         "sort": "desc"
     },
     "Outfield OAA Routine": {
