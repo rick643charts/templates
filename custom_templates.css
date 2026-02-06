@@ -2784,6 +2784,31 @@
 
 /* --------------Portrait Layout Templates----------------- */
 
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box1 {grid-column: 1/3; grid-row: 1/3;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box2 {grid-column: 3/5; grid-row: 1/3;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box3 {grid-column: 5/7; grid-row: 1/3;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box4 {grid-column: 7/9; grid-row: 1/3;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box5 {grid-column: 9/13; grid-row: 1/5;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box6 {grid-column: 1/3; grid-row: 3/5;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box7 {grid-column: 3/5; grid-row: 3/5;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box8 {grid-column: 5/7; grid-row: 3/5;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box9 {grid-column: 7/9; grid-row: 3/5;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box10 {grid-column: 1/4; grid-row: 5/8;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box11 {grid-column: 4/7; grid-row: 5/8;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box12 {grid-column: 7/10; grid-row: 5/8;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box13 {grid-column: 10/13; grid-row: 5/8;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box14 {grid-column: 1/4; grid-row: 8/10;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box15 {grid-column: 4/7; grid-row: 8/10;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box16 {grid-column: 7/10; grid-row: 8/10;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box17 {grid-column: 10/13; grid-row: 8/10;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box18 {grid-column: 1/4; grid-row: 10/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box19 {grid-column: 4/10; grid-row: 10/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box20 {grid-column: 10/13; grid-row: 10/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box21 {grid-column: 1/4; grid-row: 11/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box22 {grid-column: 4/7; grid-row: 11/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box23 {grid-column: 7/10; grid-row: 11/12;}
+.master-layout-12d6b44e-02f5-11f1-bc62-02f31304b6f7 .box24 {grid-column: 10/13; grid-row: 11/12;}
+
 .master-layout-37a91aae-02ef-11f1-bc62-02f31304b6f7 .box1 {grid-column: 1/7; grid-row: 1/4;}
 .master-layout-37a91aae-02ef-11f1-bc62-02f31304b6f7 .box2 {grid-column: 7/13; grid-row: 1/4;}
 .master-layout-37a91aae-02ef-11f1-bc62-02f31304b6f7 .box3 {grid-column: 1/7; grid-row: 4/5;}
@@ -4967,6 +4992,7 @@
 .master-layout-2f7cfb26-4c76-11ee-b26f-022876d1ca7c .box142 {grid-column: 10/11; grid-row: 12/13;}
 .master-layout-2f7cfb26-4c76-11ee-b26f-022876d1ca7c .box143 {grid-column: 11/12; grid-row: 12/13;}
 .master-layout-2f7cfb26-4c76-11ee-b26f-022876d1ca7c .box144 {grid-column: 12/13; grid-row: 12/13;}
+
 
 
 
